@@ -526,6 +526,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j7y17lte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/j7y17lte/proprietary/lib/libtlc_proxy_tui.so:system/lib/libtlc_proxy_tui.so \
     vendor/samsung/j7y17lte/proprietary/lib/libtlc_spay.so:system/lib/libtlc_spay.so \
