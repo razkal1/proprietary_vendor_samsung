@@ -506,6 +506,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
+    vendor/samsung/j7y17lte/proprietary/lib/libAutoEnhance.so:system/lib/libAutoEnhance.so \
     vendor/samsung/j7y17lte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
     vendor/samsung/j7y17lte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/j7y17lte/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
@@ -1079,6 +1080,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/setfile_3m3.bin:system/vendor/firmware/setfile_3m3.bin \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/setfile_imx258.bin:system/vendor/firmware/setfile_imx258.bin \
+    vendor/samsung/j7y17lte/proprietary/vendor/lib/libAutoEnhance.so:system/vendor/lib/libAutoEnhance.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
     vendor/samsung/j7y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
