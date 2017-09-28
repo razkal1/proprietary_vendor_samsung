@@ -18,4 +18,10 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),j7y17lte)
 
+SYMLINKS := $(TARGET_OUT)/vendor
+$(SYMLINKS):
+	@echo "Symlink: vulkan.exynos5.so"
+	@mkdir -p $@/lib/hw
+	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.exynos5.so
+
 endif
