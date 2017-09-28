@@ -18,10 +18,23 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),j7y17lte)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libGLES_mali
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/lib/egl/libGLES_mali.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
+include $(BUILD_PREBUILT)
+
 SYMLINKS := $(TARGET_OUT)/vendor
 $(SYMLINKS):
 	@echo "Symlink: vulkan.exynos5.so"
 	@mkdir -p $@/lib/hw
 	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.exynos5.so
+
+ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
+    $(ALL_MODULES.$(LOCAL_MODULE).INSTALLED) $(SYMLINKS)
 
 endif
