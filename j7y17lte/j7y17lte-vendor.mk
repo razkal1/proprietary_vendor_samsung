@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/j7y17lte/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/j7y17lte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+    vendor/samsung/j7y17lte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j7y17lte/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/samsung/j7y17lte/proprietary/csc/common/system/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_AOBLE.txt:system/csc/common/system/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_AOBLE.txt \
     vendor/samsung/j7y17lte/proprietary/csc/common/system/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_SCO.txt:system/csc/common/system/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_SCO.txt \
