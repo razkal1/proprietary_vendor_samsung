@@ -502,17 +502,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/j7y17lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/j7y17lte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
-    vendor/samsung/j7y17lte/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/j7y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/vendor/lib/hw/gralloc.exynos5.so \
-    vendor/samsung/j7y17lte/proprietary/lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
     vendor/samsung/j7y17lte/proprietary/lib/libAutoEnhance.so:system/lib/libAutoEnhance.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/j7y17lte/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/j7y17lte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libbauthserver.so:system/lib/libbauthserver.so \
     vendor/samsung/j7y17lte/proprietary/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     vendor/samsung/j7y17lte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/samsung/j7y17lte/proprietary/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
@@ -521,8 +515,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/j7y17lte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j7y17lte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/samsung/j7y17lte/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/samsung/j7y17lte/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
@@ -540,15 +532,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/libtlc_tz_keystore.so:system/lib/libtlc_tz_keystore.so \
     vendor/samsung/j7y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/j7y17lte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/j7y17lte/proprietary/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_AOBLE.txt:system/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_AOBLE.txt \
     vendor/samsung/j7y17lte/proprietary/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_SCO.txt:system/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_SCO.txt \
     vendor/samsung/j7y17lte/proprietary/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_SCO_NREC.txt:system/vendor/etc/DiamondVoice/ASF/asf_VOIP_NB_BT_SCO_NREC.txt \
