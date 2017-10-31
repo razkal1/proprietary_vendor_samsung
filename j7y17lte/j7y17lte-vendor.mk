@@ -1070,6 +1070,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     vendor/samsung/j7y17lte/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
     vendor/samsung/j7y17lte/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
+    vendor/samsung/j7y17lte/proprietary/vendor/bin/cbd:system/vendor/bin/cbd \
+    vendor/samsung/j7y17lte/proprietary/vendor/bin/sswap:system/vendor/bin/sswap \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/bcm43455_V0147.0247.hcd:system/vendor/firmware/bcm43455_V0147.0247.hcd \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/j7y17lte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
