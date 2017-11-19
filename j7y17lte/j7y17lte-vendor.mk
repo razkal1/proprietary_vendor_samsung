@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/j7y17lte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-    vendor/samsung/j7y17lte/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
     vendor/samsung/j7y17lte/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
     vendor/samsung/j7y17lte/proprietary/vendor/bin/cbd:system/vendor/bin/cbd \
     vendor/samsung/j7y17lte/proprietary/vendor/bin/sswap:system/vendor/bin/sswap \
